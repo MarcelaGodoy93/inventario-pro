@@ -1,0 +1,22 @@
+{
+  "name": "inventario-pro",
+  "version": "1.0.0",
+  "description": "Sistema profesional de inventario con React, Node.js y MongoDB",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "cd client && npm start",
+    "server": "cd server && nodemon index.js",
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "install-server": "cd server && npm install",
+    "install-all": "npm run install-client && npm run install-server"
+  },
+  "keywords": ["inventario", "react", "nodejs", "mongodb", "sistema-empresarial"],
+  "author": "Marcela Godoy",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.2"
+  }
+}
