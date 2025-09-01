@@ -52,5 +52,5 @@ inventario-pro/
 👩‍💻 Desarrollado por
 Marcela Godoy - Ingeniera en Informática
 
-GitHub: @tu-usuario
+GitHub: @MarcelaGodoy93
 Email: marcelagodoycuello93@gmail.com
